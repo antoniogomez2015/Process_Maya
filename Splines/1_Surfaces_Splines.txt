@@ -1,0 +1,77 @@
+
+Canal de Youtube:
+https://www.youtube.com/channel/UCe5wjrJTSsW6f7cKuVpmVOQ
+
+Tutorial:
+3D Autodesk Maya 008 Modelado curvas y superficies nurbs 001:	https://www.youtube.com/watch?v=IR68vY60E1k
+
+
+
+
+	Nota: Las superficies Nurbs, son creadas a través de curvas paramétricas
+
+
+	Menú Surface/Edit Curves
+
+		1_Duplicate Surface Curves:
+		
+			esta opción nos permite extraer una spline de una superficie nurbs, ya existente, para esto entramos al modo de sub elementos "Isoparm", haciendo "Mouse Right Click",
+			
+			y seleccionamos una splines/isoparm, luego aplicamos en "Edit Curver/Diplicate Surfaces Curves", así se duplicará el isoparm, seleccionado y se convertirá en una spline como un nuevo objeto
+
+		2_Attach Curves:
+
+			este comando permite fusionar más de una spline, creando una tercera curva resultante, para esto seleccionamos dos splines, y aplicamos "Edit Curves/Attach Curves", así se generará una nueva
+
+			curva la cuál tomará la forma de las dos curvas inicialmente seleccionadas, también se conservarán las dos curvas seleccionadas
+
+		3_Detach Curves:
+
+			este comando nos permite dividir una spline, en segmentos, para esto entramos en el modo de sub elementos  de una spline, haciendo "Mouse Right Click", y seleccionamos "Curve Point", y hacemos mouse left+click, en el punto
+
+			donde deseamos que sea dividida la spline, luego aplicamos "Edit Curve/Detach Curves", así, se dividirá la spline en dos splines
+
+		4_Align Curves:
+
+			esta opción nos permite alinear dos extremos de dos splines, diferentes, para que ambas mantendas una continuidad, para esto seleccionamos dos splines en diferentes posiciones y aplicamos "Edit Curves/Align Curves"
+
+			así, se alinearán las splines en una misa dirección como si fuesen una sola en unos de sus extremos
+
+		5_OpenClose Curves:
+
+			esta opción nos permite abrir ó cerrar splines, de esta manera podemos cerrar ó abrir curvas automáticamente, para esto seleccionamos la spline y aplicamos "Edit Curves/Open Close Curves",
+
+		6_Cut Curve:
+
+			esta opción nos permite cortar splines, interceptadas ó superpuestas, para esto seleccionamos varias  splines, interceptadas y aplicamos "Edit Curves/Cut Curve", así, las splines, serán divididas en los puntos de las intercepciones
+
+		7_Intersect Curves:
+
+			esta opción nos permite crear un punto de intercepción entre varias splines, para esto seleccionamos varias splines, y aplicamos "Edit Curves/Intersect Curves", así, se generará un punto de intercepción visible el cuál se moverá y se ajustará
+
+			automáticamente si una de las splines, se mueve
+
+		8_Insert Knot:
+
+			esta opción nos permite refinar una spline, permitiéndonos poder agregarle más puntos de sub división a una spline, para esto, seleccionamos la spline, y entramos al modo de sub elementos haciendo "Mouse Right Click", y seleccionamos "Curve Point", 
+
+			y hacemos mouse left+click, en el punto donde deseamos insertar un nuevo point, en la spline, luego aplicamos "Edit Curve/Insert Knot", así, se creará un nuevo point, en la spline, en el punto seleccionado
+
+		9_Extend/Extend Curve ó Extend Curve On Surface:
+
+			esta opción nos permite extender la longitud de una spline, para esto seleccionamos una spline, y aplicamos "Edit Curve/Extend/Extend Curve/Options", así la spline, extenderá su longitud en tramos de a cuerdo a la configuración indicada, 
+
+			también podemos extenderla sobre una "Surface/Superficie"
+
+		10_Offset/Offset Curve ó Offset Curve On Surface:
+
+			esta opción nos permite duplicar de forma controlada una expline, pero de forma escalada, especial mente útil para generar grosoes ó espesores para construir surfaces complejas, para esto seleccionamos una spline, y aplicamos
+
+			"Edit Curve/Offset/Offset Curve", así se generará una nueva spline, contigua ó paralela y escalada con la misma forma que la original
+
+		11_Reverse Curve Direction:
+
+			esta opción nos permite invertir la dirección del vertor que tiene una spline (para generar surfaces extruidas y solucionar problemas de compatibilidad entre splines)
+
+		12_
+

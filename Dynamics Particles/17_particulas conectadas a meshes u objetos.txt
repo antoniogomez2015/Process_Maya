@@ -1,0 +1,55 @@
+
+
+
+DETALLES:
+
+
+tenemos la posbilidad de que la acción ó creación de las partículas afecten ó que esta manifestación en el entorno 3d,
+
+y a nivel de valores, afecte a otros elementos, esto es posible relacionando elementos, por ej, la fuerza de la emisión
+
+de partículas con la propiedad "translate", de un objeto entre otros
+
+
+
+	_primero creamos un sistema de partículas, sea este a través de un emisor ó un particle/brush
+
+
+	-ahora vamos al outliner, y desplamos los sub-elementos del objeto "particle1", para acceder 
+
+	al "particle1/particleShape1"
+
+
+	_luego debemo agrupar ó meter dentro de un "Edit/Group", el objecto ó los objetos deseados
+
+
+	_luego vamo ha "Window/General Editor/Connection Editor"
+
+
+		_Reload Left: 
+
+			seleccionamos el "particle1/particleShape1", y hacemos "Reload Left", para que sean
+
+			carlagas las opciones de "particleShape1", al "Connection Editor"
+
+			
+				_ahora buscamos el atributo: "WorldCentroid"
+
+
+		_Reload Right:
+
+			-seleccionamos el "Group", creado con el objecto(s), deseados y hacemos "Reload Right", 
+
+			así, las opciones del group, serán cargadas al "Connection Editor"
+
+
+				_y buscamos el atributo, ej: "Translate"
+
+
+		en este punto, ya con las propiedades relacionadas podemos cerra el panel "Connection Editor", así,
+
+		podremos ver que al reproducir el sistema de partículas la mesh/motive, se verá afectada en su translación
+
+		en relación a las producción de partículas
+
+	
