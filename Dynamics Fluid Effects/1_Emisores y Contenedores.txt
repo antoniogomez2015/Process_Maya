@@ -3,7 +3,7 @@
 DETALLES:
 
 
-también disponemos de un sistema con el cu'al podemos hacer sistemas gaseosos, líquidos, fluidos, así,
+también disponemos de un sistema con el cuál, podemos hacer sistemas gaseosos, líquidos, fluidos, así,
 
 como de diferentes densidades, otros
 

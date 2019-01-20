@@ -4,7 +4,7 @@ DETALLES:
 
 
 
-pdomos cambiar las caracerísticas de visualización de las simulaciones creadas en los contenedores de fluid effects
+podomos cambiar las caracerísticas de visualización de las simulaciones creadas en los contenedores de fluid effects
 
 de esta manera podemos incluso hasta visualizar por característica específica como por ejemplo: ver sólo la
 
