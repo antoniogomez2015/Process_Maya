@@ -15,9 +15,13 @@
         Modeling Toolkit:
         _________________
 
-            Hide Modeling Toolkit:
+            Hide/Show Modeling Toolkit:
 
-                _
+                _éstas opciones nos permitirá activar ó desactivar la visualización del panel "Modeling Tool"
+
+                _de sección junto al "Channel Box", y al "Attribute Editor"
+
+            NOTA: la mayoría de las herramienta de éste menú están relacionadas con el panel "Nodelin Toolkit", y consolidan múltiples herramientas en una sóla para un mejor workflow
 
 
         Edit:
@@ -33,19 +37,38 @@
 
             Bevel Tool:
 
-                _
+                _ésta opción nos pemritirá hacer bevel, de cualquier sub elementos seleccionado
+
+                _sea éste un vertex, un edge, ó  un face, de ésta maenra, la herramienta tendrá un comportamiento interactivo y práctico que consolida éstas tres herramientas en una sóla
 
             Bridge Tool:
 
-                _
+                _ésta opción nos pemritirá poder hacer "Bridge", entre dos edges, separados por una área vacía en un mismo objeto
+
+                _de ésta manera, podremos cerrar agujeros ó unir partes separaas de entre dos "inslands", de geometría parte de un mismo objeto en maya
+
+                _de ésta manera, podremos utilizar ésta herramienta en vez de la herramienta "Append to Polygon Tool", ó de la herramienta "Polygons/Edit Mesh/Face/Bridge"
 
             Connect Tool:
 
-                _
+                _ésta opción nos permitirá conectar ó unir una serie de sub elemetos seleccionados previamente
+
+                _al igual que la herramienta: "Polygons/Edit Mesh/Connect Components"
+
+                _con la diferentes de que ahora la herramienta es interactiva y sencible
+
+                _de ésta manera, ahora tiene aplicaciones de "Slice", y pude aplicar atravezando todo el insland, de una geometría dividiendo a los sub, elementos seleccioanados en ese proceso
+
+                _también, aplicará a sub elementos que vayamos seleccionando a través, del tiempo y de forma interactiva
+
 
             Crease Tool:
 
-                _
+                _ésta opción nos permitirá extender la tensión ó fuerza ejecida de uno ó más edges, seleccionados sobre los demás edges, contiguos
+
+                _lo cuál, emilará la tensión existente de más edge loops, contiguos y paralelos a los seleccionados
+
+                _de ésta manera, podremos influenciar ó cambiar la morfología de un elemento sin cambiar ó alterar su densidad y topología
 
             Create Polygon Tool:
 
@@ -85,13 +108,53 @@
 
                 _
 
+
             Multi-Cut Tool:
 
-                _ésta opción nos permitirá agregar edges, independientes para dividir "faces", ha modo de "cuchillo", para crear elementos complejos
+                Cut Faces:
+                __________
+
+                _ésta opción nos permitirá agregar edges, independientes para dividir "faces", ha modo de "cuchillo", para crear elementos complejos conectando vertex por medio edges, nuevos
+
+                Slice:
+                ______
+
+                _para lo cuál, tendremos que crear una línea imaginaria entre dos puntos fuera del contorno del mesh, general del elemento ó motivo, haciendo clicks, en áreas vacías de del viewport
+
+                Cut Slice:
+                __________
+
+                _más también, podremos aumentar las posibilidaddes de ésta opcion ampliándolas a la acción concreta de "Cut"
+
+                _para lo cuál, debemos de repetir la acción anterior más en las opciones de la herramienta ó activando el panel "Modeling Tools"
+
+                _en la cuál, podremos activar las opcoines de "Slice Tool"
+
+                _para que así, podamos activar las opciones de "Extract Faces"
+
+                _por medio de la cuál, podremos dividir la geometría en dos partes diferentes pero dentro de un mismo objeto a partir de la línea signada por nosotros
+
+                _de ésta manera, tendremos opciones y campos a través, de los cuáles, podremos indicar la distancia de separación de las formas resultantes en las cordenadas deseadas
+
+                Trim Slice:
+                ___________
+
+                _más también, dispondremos de la opción de "Delete Faces", en el panel "Modeling Tool"
+
+                _a través, de la cuál, haremos la función de "Trim", sobre la parte de la geometría opuesta de la línea signada por nosotros 
+                
+                _la cuál, se comprimirá ó será suprimida del modelo ó motivo tras aplicar el efecto
+
+                Edge Loops:
+                ___________
 
                 _como también, nos permitirá agregar loops, completos aplicando la herramiento con "Control"
 
-                _y con "Shift", pulsado tendremos más precisión en el proceso
+                _y con "Shift", pulsado tendremos más precisión en el proceso ya que haremos "Snap", sobre los sub elementos del objeto
+
+                _así, como también, con "Shift", pulsado haremos rotación en grados de las ociones de "Slice"
+
+                _y con "Control + Shift", haremos que el nuevo loop, agregado se siña más a la forma del loop, contiguo exisntente y de referencia
 
                 NOTA: ésta herramienta sustituye y expande la herramienta de "Split Polygons Tools"
 
@@ -127,7 +190,11 @@
 
             Side Edge Tool:
 
-                _
+                _ésta opción nos permitirá desplazar edges, seleccionados sobre los propios edges, sobre los cuáles están construidos los edges, seleccionados previamente
+
+                _de ésta manera, podremos mantener la morfología del objeto mientras cambiamos su topología, distribución y tensión de los sub elementos que lo componen
+
+                _para lo cuál, con los edges, respectivos seleccionados debemos aplicar "Mouse Midle Click and Drag", para desplazarlos
 
             Target Weld Tool:
 
